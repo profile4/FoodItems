@@ -1,0 +1,46 @@
+.outer-div{
+    background: linear-gradient(0deg, #B2AAAA, #B2AAAA), linear-gradient(0deg, #B2AAAA, #B2AAAA), linear-gradient(0deg, #B2AAAA, #B2AAAA), #B2AAAA;
+    display:inline-block;
+    width:15%;
+    margin-left:2%;
+    margin-bottom: 2%;
+    display:absolute;
+}
+
+.imageholder img{
+    width: 100px;
+    height: 100px;
+    float:left;
+    padding-top: 5%;
+    padding-left:2%;
+    padding-right: 5%;
+}
+.contentholder{
+    margin: auto;
+}
+.contentholder p{
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+  }
+  
+  button {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+    background-color: #b2aaaa;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #b2aaaa;
+  }
+  
+  button:hover {
+    border: 3px solid black;
+  }
